@@ -13,10 +13,26 @@
     </insert>
 
     <select id="selUser"> <!--로그인-->
-        SELECT iuser, upw, nm, pic, created_at AS createdAt, updated_at AS updatedAt
+        SELECT
+            iuser,
+            upw,
+            nm,
+            pic,
+            firebase_token AS firebaseToken,
+            created_at AS createdAt,
+            updated_at AS updatedAt
         FROM t_user
-        WHERE uid = #{uid}
+        <where> <!-- 위에 if문이 false이고 아래 if문이 false 면 아래 and 조건을(문법상에러) 지워준다.-->
+           <if test=" uid != null and uid != '' ">
+            uid = #{uid}
+           </if>
+           <if test=" iuser > 0 ">
+            iuser = #{iuser}
+           </if>
+        </where>
     </select>
+
+
 
     <select id="userInfo"> <!-- 유저 정보 표기-->
         SELECT A.nm, A.pic, A.created_at AS createdAt
@@ -39,7 +55,7 @@
         WHERE A.iuser = #{targetIuser}
     </select>
 
-    
+
     <insert id="updUserPic">
         UPDATE t_user
         SET pic = #{pic}
@@ -57,5 +73,10 @@
         WHERE from_iuser = #{fromIuser} and to_iuser =#{toIuser}
     </delete>
 
+    <update id="updUserFirebaseToken">
+        UPDATE t_user
+        SET firebase_token = #{firebaseToken}
+        WHERE iuser = #{iuser}
+    </update>
 
 </mapper>

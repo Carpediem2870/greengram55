@@ -13,7 +13,7 @@ public interface FeedMapper {
     int insFeed(FeedInsDto dto);
     List<FeedSelVo> selFeedAll(FeedSelDto dto);
 
-    int SelFeed(FeedDelDto dto);
-    int DelFeedAll(int ifeed);
+    int selFeed(FeedDelDto dto);
+    int delFeedAll(int ifeed);
 
 }

@@ -8,5 +8,5 @@ public class DmMsgSelVo {
     private int writerIuser; // 글 쓴사람 번호
     private String writerPic; // 메세지 보낸사람
     private String msg; // 메세지
-    private String createdAt; // 채팅 입력한 시간
+    private String createdAt; // 각 seq에 대한 메세지 보낸 시간
 }

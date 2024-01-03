@@ -33,13 +33,13 @@
         LIMIT #{startIdx}, #{rowCount}
     </select>
 
-    <select id="SelFeed">
+    <select id="selFeed">
         SELECT ifeed
         FROM t_feed
         WHERE ifeed = #{ifeed} and iuser = #{iuser}
     </select>
 
-    <delete id="DelFeedAll">
+    <delete id="delFeedAll">
         DELETE FROM t_feed
         WHERE ifeed = #{ifeed}
     </delete>

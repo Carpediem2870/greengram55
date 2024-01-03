@@ -35,7 +35,6 @@ public class FeedCommentController {
     public ResVo delFeedComment(@RequestParam("ifeed_comment")int ifeedComment,
                                 @RequestParam("logined_iuser")int loginedIuser){
 
-
         FeedCommentDelDto dto = new FeedCommentDelDto();
         dto.setIfeedComment(ifeedComment);
         dto.setLoginedIuser(loginedIuser);

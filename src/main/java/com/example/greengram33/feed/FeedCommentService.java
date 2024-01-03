@@ -15,7 +15,7 @@ import java.util.List;
 
 @Slf4j
 @Service
-@RequiredArgsConstructor
+@RequiredArgsConstructor // 생성자 주입
 public class FeedCommentService {
     private final FeedCommentMapper mapper;
 

@@ -4,6 +4,7 @@ import com.example.greengram33.common.Const;
 import com.example.greengram33.common.ResVo;
 import com.example.greengram33.feed.model.*;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -11,8 +12,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+@Slf4j
 @Service
-@RequiredArgsConstructor
+@RequiredArgsConstructor // final이 붙은 친구들만 생성자를 만듦
 public class FeedService {
     private final FeedMapper mapper;
     private final FeedPicsMapper picsMapper;
@@ -46,17 +48,17 @@ public class FeedService {
         fcDto.setRowCount(4); // 노출 개수
 
         for (FeedSelVo vo: list) { // 반복문을 통해 pics 값 삽입
-            List<String> dd = picsMapper.selFeedPics(vo.getIfeed()); // 사진의 주소값을 담을 수 있는 dd 생성
-            vo.setPics(dd); // dd의 주소값에 vo에있는 Pics을 담는다.
+            List<String> pics = picsMapper.selFeedPics(vo.getIfeed()); // 사진의 주소값을 담을 수 있는 pics 생성
+            vo.setPics(pics); // pics의 주소값에 vo에있는 Pics을 담는다.
 
             fcDto.setIfeed(vo.getIfeed()); // vo에있는 ifeed를 얻어서 fcDto에 vo에있는 ifeed에 저장
             List<FeedCommentSelVo> comments = commentMapper.selFeedCommentAll(fcDto);
-            //
+            vo.setComments(comments);
+
             if (comments.size()==4) {
                 vo.setIsMoreComment(1); // IsMoreComment는 1은 댓글 더보기 활성화 0은 비활성화
                 comments.remove(comments.size()-1); // 배열의 방번호를 지운다.
             }
-            vo.setComments(comments);
         }
         return list;
     }
@@ -73,15 +75,16 @@ public class FeedService {
     }
 
     public ResVo delFeed (FeedDelDto dto) {
-        int targetIfeed = mapper.SelFeed(dto);
+        int targetIfeed = mapper.selFeed(dto);
 
         if (targetIfeed == 0) {
             return new ResVo(Const.FAIL);
         }
         picsMapper.FeedDelPics(targetIfeed);
         commentMapper.FeedDelComment(targetIfeed);
-        favMapper.FeedDelFav(targetIfeed);
-        mapper.DelFeedAll(targetIfeed);
+        favMapper.FeedDelFav(dto);
+        mapper.delFeedAll(targetIfeed);
+
         return new ResVo(Const.SUCCESS);
     }
 }

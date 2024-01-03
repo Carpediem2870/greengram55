@@ -22,6 +22,11 @@ public class DmController {
         return service.getDmAll(dto);
     }
 
+    // iuser값 2개 필요
+    @PostMapping
+    public DmSelVo postDm(@RequestBody DmInsDto dto){
+        return service.postDm(dto);
+    }
 
     //----------------------------- t_dm_msg
     @PostMapping("/msg")
@@ -33,5 +38,10 @@ public class DmController {
     public List<DmMsgSelVo> getDmMsgAll(DmMsgSelDto dto) {
         log.info("dto : {}", dto);
         return service.getMsgAll(dto);
+    }
+
+    @DeleteMapping("/msg")
+    public ResVo delDmMsg(DmMsgDelDto dto){
+        return service.dmDelMsg(dto);
     }
 }

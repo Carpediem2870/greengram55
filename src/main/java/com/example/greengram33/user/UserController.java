@@ -45,7 +45,12 @@ public class UserController {
     // ResVo - result: 1- Following, 0- 취소
     @PostMapping("/follow")
     public ResVo toggleFollow(@RequestBody UserFollowDto dto) {
-
         return service.toggleUserFollow(dto);
     }
+
+    @PatchMapping("/firebase-token")
+    public ResVo patchUserFirebaseToken(@RequestBody UserFirebaseTokenPatchDto dto){
+        return service.patchUserFirebaseToken(dto);
+    }
+
 }
