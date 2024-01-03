@@ -59,15 +59,15 @@ public class FeedIntegrationTest extends BaseIntegrationTest {
     @Rollback(false)
     public void delFeed() throws Exception {
 
-        MultiValueMap<String, String> qurry = new LinkedMultiValueMap<>();
-        qurry.add("iuser", "3");
-        qurry.add("ifeed", "28");
+        MultiValueMap<String, String> requestParams = new LinkedMultiValueMap<>();
+        requestParams.add("iuser", "3");
+        requestParams.add("ifeed", "28");
 
         MvcResult mr = mvc.perform(
                 MockMvcRequestBuilders
                         //.delete("/api/feed?ifeed={ifeed}&iuser={iuser}", "221", "3")
                         .delete("/api/feed")
-                        .params(qurry)
+                        .params(requestParams)
         )
                 .andExpect(status().isOk())
                 .andDo(print())

@@ -1965,3 +1965,128 @@ java.sql.SQLSyntaxErrorException: (conn=284) Unknown column 'firebase_token' in 
 [2024-01-03 12:05:31 [32mINFO [0;39m http-nio-8082-exec-4] [com.example.greengram33.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=1, targetIuser=0, isFavList=0, startIdx=0, rowCount=20)[0;39m
 [2024-01-03 12:05:55 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown initiated...[0;39m
 [2024-01-03 12:05:55 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown completed.[0;39m
+[2024-01-03 14:23:59 INFO  main] [com.example.greengram33.Greengram33ApplicationTests] Starting Greengram33ApplicationTests using Java 17.0.8.1 with PID 7236 (started by Administrator in D:\spring\greengram33)
+[2024-01-03 14:23:59 INFO  main] [com.example.greengram33.Greengram33ApplicationTests] No active profile set, falling back to 1 default profile: "default"
+[2024-01-03 14:24:00 INFO  main] [com.example.greengram33.common.FirebaseConfiguration] FirebaseApp Initialization Complete !!!
+[2024-01-03 14:24:00 INFO  main] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
+[2024-01-03 14:24:00 INFO  main] [com.example.greengram33.Greengram33ApplicationTests] Started Greengram33ApplicationTests in 1.723 seconds (process running for 2.493)
+[2024-01-03 14:24:53 INFO  main] [com.example.greengram33.Greengram33ApplicationTests] Starting Greengram33ApplicationTests using Java 17.0.8.1 with PID 12776 (started by Administrator in D:\spring\greengram33)
+[2024-01-03 14:24:53 INFO  main] [com.example.greengram33.Greengram33ApplicationTests] No active profile set, falling back to 1 default profile: "default"
+[2024-01-03 14:24:54 INFO  main] [com.example.greengram33.common.FirebaseConfiguration] FirebaseApp Initialization Complete !!!
+[2024-01-03 14:24:55 INFO  main] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] Adding welcome page: class path resource [static/index.html]
+[2024-01-03 14:24:55 INFO  main] [com.example.greengram33.Greengram33ApplicationTests] Started Greengram33ApplicationTests in 1.847 seconds (process running for 2.646)
+[2024-01-03 14:46:45 INFO  main] [com.example.greengram33.user.UserMapperTest] Starting UserMapperTest using Java 17.0.8.1 with PID 12204 (started by Administrator in D:\spring\greengram33)
+[2024-01-03 14:46:45 INFO  main] [com.example.greengram33.user.UserMapperTest] No active profile set, falling back to 1 default profile: "default"
+[2024-01-03 14:46:46 INFO  main] [com.example.greengram33.user.UserMapperTest] Started UserMapperTest in 0.94 seconds (process running for 1.697)
+[2024-01-03 14:46:46 INFO  main] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-01-03 14:46:46 INFO  main] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.mariadb.jdbc.Connection@6418e39e
+[2024-01-03 14:46:46 INFO  main] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-01-03 14:46:46 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[2024-01-03 14:46:46 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[2024-01-03 14:50:56 INFO  main] [com.example.greengram33.user.UserMapperTest] Starting UserMapperTest using Java 17.0.8.1 with PID 14100 (started by Administrator in D:\spring\greengram33)
+[2024-01-03 14:50:56 INFO  main] [com.example.greengram33.user.UserMapperTest] No active profile set, falling back to 1 default profile: "default"
+[2024-01-03 14:50:57 INFO  main] [com.example.greengram33.user.UserMapperTest] Started UserMapperTest in 0.926 seconds (process running for 1.677)
+[2024-01-03 14:50:57 INFO  main] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-01-03 14:50:57 INFO  main] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.mariadb.jdbc.Connection@4f486211
+[2024-01-03 14:50:57 INFO  main] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-01-03 14:50:58 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[2024-01-03 14:50:58 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[2024-01-03 14:52:44 INFO  main] [com.example.greengram33.user.UserMapperTest] Starting UserMapperTest using Java 17.0.8.1 with PID 10764 (started by Administrator in D:\spring\greengram33)
+[2024-01-03 14:52:44 INFO  main] [com.example.greengram33.user.UserMapperTest] No active profile set, falling back to 1 default profile: "default"
+[2024-01-03 14:52:45 INFO  main] [com.example.greengram33.user.UserMapperTest] Started UserMapperTest in 0.929 seconds (process running for 1.704)
+[2024-01-03 14:52:45 INFO  main] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-01-03 14:52:45 INFO  main] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.mariadb.jdbc.Connection@76d7881e
+[2024-01-03 14:52:45 INFO  main] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-01-03 14:52:45 INFO  main] [com.example.greengram33.user.UserMapperTest] result = 1
+[2024-01-03 14:52:45 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[2024-01-03 14:52:45 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[2024-01-03 14:53:25 INFO  main] [com.example.greengram33.user.UserMapperTest] Starting UserMapperTest using Java 17.0.8.1 with PID 13336 (started by Administrator in D:\spring\greengram33)
+[2024-01-03 14:53:25 INFO  main] [com.example.greengram33.user.UserMapperTest] No active profile set, falling back to 1 default profile: "default"
+[2024-01-03 14:53:26 INFO  main] [com.example.greengram33.user.UserMapperTest] Started UserMapperTest in 0.918 seconds (process running for 1.672)
+[2024-01-03 14:53:26 INFO  main] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-01-03 14:53:26 INFO  main] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.mariadb.jdbc.Connection@7d42542
+[2024-01-03 14:53:26 INFO  main] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-01-03 14:53:26 INFO  main] [com.example.greengram33.user.UserMapperTest] result = 1
+[2024-01-03 14:53:26 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[2024-01-03 14:53:26 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[2024-01-03 15:04:59 INFO  main] [com.example.greengram33.user.UserMapperTest] Starting UserMapperTest using Java 17.0.8.1 with PID 11276 (started by Administrator in D:\spring\greengram33)
+[2024-01-03 15:04:59 INFO  main] [com.example.greengram33.user.UserMapperTest] No active profile set, falling back to 1 default profile: "default"
+[2024-01-03 15:04:59 INFO  main] [com.example.greengram33.user.UserMapperTest] Started UserMapperTest in 0.947 seconds (process running for 1.728)
+[2024-01-03 15:04:59 INFO  main] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-01-03 15:04:59 INFO  main] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.mariadb.jdbc.Connection@6adc5b9c
+[2024-01-03 15:04:59 INFO  main] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-01-03 15:05:00 INFO  main] [com.example.greengram33.user.UserMapperTest] result = 1
+[2024-01-03 15:05:00 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[2024-01-03 15:05:00 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[2024-01-03 15:05:23 INFO  main] [com.example.greengram33.user.UserMapperTest] Starting UserMapperTest using Java 17.0.8.1 with PID 14388 (started by Administrator in D:\spring\greengram33)
+[2024-01-03 15:05:23 INFO  main] [com.example.greengram33.user.UserMapperTest] No active profile set, falling back to 1 default profile: "default"
+[2024-01-03 15:05:24 INFO  main] [com.example.greengram33.user.UserMapperTest] Started UserMapperTest in 0.946 seconds (process running for 1.713)
+[2024-01-03 15:05:24 INFO  main] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-01-03 15:05:24 INFO  main] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.mariadb.jdbc.Connection@19c1820d
+[2024-01-03 15:05:24 INFO  main] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-01-03 15:05:24 INFO  main] [com.example.greengram33.user.UserMapperTest] result = 1
+[2024-01-03 15:05:24 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[2024-01-03 15:05:24 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[2024-01-03 15:06:11 INFO  main] [com.example.greengram33.user.UserMapperTest] Starting UserMapperTest using Java 17.0.8.1 with PID 300 (started by Administrator in D:\spring\greengram33)
+[2024-01-03 15:06:11 INFO  main] [com.example.greengram33.user.UserMapperTest] No active profile set, falling back to 1 default profile: "default"
+[2024-01-03 15:06:12 INFO  main] [com.example.greengram33.user.UserMapperTest] Started UserMapperTest in 0.966 seconds (process running for 1.752)
+[2024-01-03 15:06:12 INFO  main] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-01-03 15:06:12 INFO  main] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.mariadb.jdbc.Connection@2accaec2
+[2024-01-03 15:06:12 INFO  main] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-01-03 15:06:12 INFO  main] [com.example.greengram33.user.UserMapperTest] result = 1
+[2024-01-03 15:06:12 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[2024-01-03 15:06:12 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[2024-01-03 15:06:19 INFO  main] [com.example.greengram33.user.UserMapperTest] Starting UserMapperTest using Java 17.0.8.1 with PID 6660 (started by Administrator in D:\spring\greengram33)
+[2024-01-03 15:06:19 INFO  main] [com.example.greengram33.user.UserMapperTest] No active profile set, falling back to 1 default profile: "default"
+[2024-01-03 15:06:19 INFO  main] [com.example.greengram33.user.UserMapperTest] Started UserMapperTest in 0.947 seconds (process running for 1.752)
+[2024-01-03 15:06:19 INFO  main] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-01-03 15:06:19 INFO  main] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.mariadb.jdbc.Connection@83bb0f
+[2024-01-03 15:06:19 INFO  main] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-01-03 15:06:20 INFO  main] [com.example.greengram33.user.UserMapperTest] result = 1
+[2024-01-03 15:06:20 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[2024-01-03 15:06:20 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[2024-01-03 15:06:42 INFO  main] [com.example.greengram33.user.UserMapperTest] Starting UserMapperTest using Java 17.0.8.1 with PID 5892 (started by Administrator in D:\spring\greengram33)
+[2024-01-03 15:06:42 INFO  main] [com.example.greengram33.user.UserMapperTest] No active profile set, falling back to 1 default profile: "default"
+[2024-01-03 15:06:43 INFO  main] [com.example.greengram33.user.UserMapperTest] Started UserMapperTest in 0.985 seconds (process running for 1.811)
+[2024-01-03 15:06:43 INFO  main] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-01-03 15:06:43 INFO  main] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.mariadb.jdbc.Connection@19c1820d
+[2024-01-03 15:06:43 INFO  main] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-01-03 15:06:44 INFO  main] [com.example.greengram33.user.UserMapperTest] result = 1
+[2024-01-03 15:06:44 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[2024-01-03 15:06:44 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[2024-01-03 15:07:31 INFO  main] [com.example.greengram33.user.UserMapperTest] Starting UserMapperTest using Java 17.0.8.1 with PID 14300 (started by Administrator in D:\spring\greengram33)
+[2024-01-03 15:07:31 INFO  main] [com.example.greengram33.user.UserMapperTest] No active profile set, falling back to 1 default profile: "default"
+[2024-01-03 15:07:31 INFO  main] [com.example.greengram33.user.UserMapperTest] Started UserMapperTest in 0.951 seconds (process running for 1.721)
+[2024-01-03 15:07:31 INFO  main] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-01-03 15:07:32 INFO  main] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.mariadb.jdbc.Connection@76d7881e
+[2024-01-03 15:07:32 INFO  main] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-01-03 15:07:32 INFO  main] [com.example.greengram33.user.UserMapperTest] result = 1
+[2024-01-03 15:07:32 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[2024-01-03 15:07:32 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[2024-01-03 15:08:54 INFO  main] [com.example.greengram33.user.UserMapperTest] Starting UserMapperTest using Java 17.0.8.1 with PID 14960 (started by Administrator in D:\spring\greengram33)
+[2024-01-03 15:08:54 INFO  main] [com.example.greengram33.user.UserMapperTest] No active profile set, falling back to 1 default profile: "default"
+[2024-01-03 15:08:54 INFO  main] [com.example.greengram33.user.UserMapperTest] Started UserMapperTest in 0.945 seconds (process running for 1.752)
+[2024-01-03 15:08:54 INFO  main] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-01-03 15:08:54 INFO  main] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.mariadb.jdbc.Connection@6393bf8b
+[2024-01-03 15:08:54 INFO  main] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-01-03 15:08:55 INFO  main] [com.example.greengram33.user.UserMapperTest] result = 1
+[2024-01-03 15:08:55 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[2024-01-03 15:08:55 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[2024-01-03 15:09:17 INFO  main] [com.example.greengram33.user.UserMapperTest] Starting UserMapperTest using Java 17.0.8.1 with PID 5396 (started by Administrator in D:\spring\greengram33)
+[2024-01-03 15:09:17 INFO  main] [com.example.greengram33.user.UserMapperTest] No active profile set, falling back to 1 default profile: "default"
+[2024-01-03 15:09:18 INFO  main] [com.example.greengram33.user.UserMapperTest] Started UserMapperTest in 0.932 seconds (process running for 1.703)
+[2024-01-03 15:09:18 INFO  main] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-01-03 15:09:18 INFO  main] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.mariadb.jdbc.Connection@6b1b19cf
+[2024-01-03 15:09:18 INFO  main] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-01-03 15:09:19 INFO  main] [com.example.greengram33.user.UserMapperTest] result = 1
+[2024-01-03 15:09:19 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[2024-01-03 15:09:19 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[2024-01-03 15:14:46 INFO  main] [com.example.greengram33.user.UserMapperTest] Starting UserMapperTest using Java 17.0.8.1 with PID 12772 (started by Administrator in D:\spring\greengram33)
+[2024-01-03 15:14:46 INFO  main] [com.example.greengram33.user.UserMapperTest] No active profile set, falling back to 1 default profile: "default"
+[2024-01-03 15:14:47 INFO  main] [com.example.greengram33.user.UserMapperTest] Started UserMapperTest in 0.937 seconds (process running for 1.717)
+[2024-01-03 15:14:47 INFO  main] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[2024-01-03 15:14:47 INFO  main] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.mariadb.jdbc.Connection@7d42542
+[2024-01-03 15:14:47 INFO  main] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[2024-01-03 15:14:48 INFO  main] [com.example.greengram33.user.UserMapperTest] result = 1
+[2024-01-03 15:14:48 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[2024-01-03 15:14:48 INFO  SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
